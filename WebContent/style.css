@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+body{
+	text-align: center;
+	align-content: center;
+}
+
+.divForm{
+	display: block;
+	text-align: center;
+}
+
+form{
+	display: inline-block;
+	background-color: hsla(210, 100%, 50%, 0.2);
+	border-style: groove;
+	align-content: center;
+	width: 44em;
+	height: 25em;
+}
+
+.names{
+	margin-left: 2em;
+	margin-top: 1em;
+}
+
+.salaryAndDate{
+	
+	margin-right: 2em;
+	margin-top: 1em;
+}
+
+table{
+	margin-top: 1em;
+	margin-left: 2em;
+	border-collapse: collapse;
+	width: 88%;
+}
+
+th{
+	border: 2px solid black;
+	background-color: hsla(210, 100%, 50%, 0.4);
+	cursor: default;
+}
+
+td{
+	text-align: left;
+	background-color: white;
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+}
+
+.table{
+	margin-top: 1em;
+	border: thick;
+	border-color: black;
+	height: 230px;
+	overflow-y: scroll;
+}
+
+.buttons{
+	margin-top: 7em;
+}
+
+.selected td{
+	background-color: aqua !important;
+	font-weight: bold;
+	color: red;
+}
+
+.rowHighlight td{
+	background-color: #d9d9d9;
+}
+
+input{
+	margin-bottom: 1em;
+}

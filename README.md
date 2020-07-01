@@ -1,7 +1,6 @@
 # Sciant_task7
 
 
-task7 with Servlets
+Performing CRUD
 
-
-no AJAX included yet
+Using Java, JSP, Apache Tomcat
